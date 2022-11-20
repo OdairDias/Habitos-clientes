@@ -1,4 +1,5 @@
 # Dividir trabalho em partes
+# Criar banco de dados
 # Criar lista que receba nome, idade e sexo- ok
 # criar lista que seja possível digitar itens de uma sexta de produtos
 # criar lista de itens complementares
