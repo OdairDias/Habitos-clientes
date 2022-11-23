@@ -1,11 +1,13 @@
+
 from PyQt5 import uic,QtWidgets
+
 import mysql.connector
 
-bd= mysql.connector.conect(
+bd= mysql.connector.connect(
     host='localhost',
-    user='rost',
-    passwd='',
-    database="projeto_produtos"
+    user='root',
+    passwd="",
+    database='projeto_produtos'
 )
 
 def funcao_principal():
