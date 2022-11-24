@@ -1,8 +1,5 @@
-
 from PyQt5 import uic,QtWidgets
-
 import mysql.connector
-
 bd= mysql.connector.connect(
     host='localhost',
     user='root',
@@ -23,9 +20,9 @@ def funcao_principal():
     print('Preço',linha5)
     linha6=pagina_inicial.lineEdit_6.text()
     print('Quantidade',linha6)
-
+# Definindo referencia para botões selecionaveis.
     categoria=''
-
+#
     if pagina_inicial.radioButton.isChecked():
         print('Beleza')
         categoria='Beleza'
@@ -48,6 +45,7 @@ pagina_inicial.pushButton.clicked.connect(funcao_principal)
 
 pagina_inicial.show()
 app.exec()
+
 # criando as tabelas:
 # create table produtos_variaveis ( 
     #id INT NOT NULL AUTO_INCREMENT,
