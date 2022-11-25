@@ -45,16 +45,3 @@ pagina_inicial.pushButton.clicked.connect(funcao_principal)
 pagina_inicial.show()
 app.exec()
 
-# criando as tabelas:
-# create table produtos_variaveis ( 
-    #id INT NOT NULL AUTO_INCREMENT,
-    #Nome VARCHAR(50),  
-    #Sexo VARCHAR(50), 
-    #Idade INT,
-    #produto VARCHAR(30),
-    #preço DOUBLE,
-    #Quantidade INT,
-    #Categoria VARCHAR(30),
-    #primary key (id)
-#);
-#insert into produtos_variaveis (Nome,sexo,Idade,produto,preço,Quantidade,categoria)values ("Odair Dias","M",33,"creme dental",9,1,"saude");
