@@ -12,7 +12,7 @@ Tivemos como maior objetivo nesse projeto, criar uma ferramenta para auxiliar o 
 
 ## Resultados
 
-*Conectamos a um banco de dados mySQL para que estes dados de entrada, pudessem ser salvos e posteriormente analisados. Analise dos dados colhidos se torna-se uma poderosa ferramenta na tomada de decisão, pois permite ter uma visão mais clara e objetiva do que de fato está acontecendo no seu negócio. Simulamos a entrada de alguns dados, o resultado pode ser visto a baixo:*
+*Conectamos a um banco de dados mySQL para que estes dados de entrada, pudessem ser salvos e posteriormente analisados. Analise dos dados colhidos se torna-se uma poderosa ferramenta na tomada de decisão, pois permite ter uma visão mais clara e objetiva do que de fato está acontecendo no seu negócio. Simulamos a entrada de alguns dados, o resultado pode ser visto a baixo em um Dashboard construido usando Power BI:*
 
 
 *![Subir git](https://user-images.githubusercontent.com/117185803/203996287-fbbbd104-a664-4bf7-b60f-d58855e0d24e.png)*
