@@ -21,15 +21,15 @@ def funcao_principal():
     linha6=pagina_inicial.lineEdit_6.text()
     print('Quantidade',linha6)
 # Definindo referencia para botões selecionaveis.
+    
     categoria=''
-#
-    if pagina_inicial.radioButton.isChecked():
+    if pagina_inicial.radioButton_3.isChecked():
         print('Beleza')
         categoria='Beleza'
-    elif pagina_inicial.radioButon_2.isChecked():
+    if pagina_inicial.radioButton_2.isChecked():
         print('Resfriado')
         categoria='resfriado'
-    elif pagina_inicial.radioButon_3.isChecked():
+    if pagina_inicial.radioButton.isChecked():
         print('Higiene Pessoal')
         categoria='higiene Pessoal'
     # ligando bd com tela
@@ -42,7 +42,6 @@ def funcao_principal():
 app=QtWidgets.QApplication([])
 pagina_inicial=uic.loadUi('pagina_inicial.ui')
 pagina_inicial.pushButton.clicked.connect(funcao_principal)
-
 pagina_inicial.show()
 app.exec()
 
